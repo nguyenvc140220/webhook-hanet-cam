@@ -3874,19 +3874,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\viett\\.nuget\\packages\\": {}
+    "C:\\Users\\vungu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\webhook-hanet-cam\\WebhookCamAi\\WebhookCamAi.csproj",
+      "projectUniqueName": "C:\\Users\\vungu\\OneDrive\\Desktop\\tun\\webhook-hanet-cam\\WebhookCamAi\\WebhookCamAi.csproj",
       "projectName": "WebhookCamAi",
-      "projectPath": "E:\\webhook-hanet-cam\\WebhookCamAi\\WebhookCamAi.csproj",
-      "packagesPath": "C:\\Users\\viett\\.nuget\\packages\\",
-      "outputPath": "E:\\webhook-hanet-cam\\WebhookCamAi\\obj\\",
+      "projectPath": "C:\\Users\\vungu\\OneDrive\\Desktop\\tun\\webhook-hanet-cam\\WebhookCamAi\\WebhookCamAi.csproj",
+      "packagesPath": "C:\\Users\\vungu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vungu\\OneDrive\\Desktop\\tun\\webhook-hanet-cam\\WebhookCamAi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\viett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vungu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3900,8 +3900,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\webhook-hanet-cam\\Infra\\Infra.csproj": {
-              "projectPath": "E:\\webhook-hanet-cam\\Infra\\Infra.csproj"
+            "C:\\Users\\vungu\\OneDrive\\Desktop\\tun\\webhook-hanet-cam\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\Users\\vungu\\OneDrive\\Desktop\\tun\\webhook-hanet-cam\\Infra\\Infra.csproj"
             }
           }
         }
@@ -3966,7 +3966,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

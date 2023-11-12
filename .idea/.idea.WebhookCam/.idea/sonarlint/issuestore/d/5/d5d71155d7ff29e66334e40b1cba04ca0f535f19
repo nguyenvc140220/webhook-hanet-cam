@@ -1,0 +1,10 @@
+
+ecsharpsquid:S2486K"CHandle the exception or explain in a comment why it can be ignored.(â½Žµøÿÿÿÿ
+ecsharpsquid:S2486s"CHandle the exception or explain in a comment why it can be ignored.(â½Žµøÿÿÿÿ
+ycsharpsquid:S2737W"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(´‚¤–øÿÿÿÿ
+Jcsharpsquid:S108L")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ
+Jcsharpsquid:S108t")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ
+Qcsharpsquid:S1144`"/Remove the unused private method 'writeToFile'.(çµŸÍøÿÿÿÿ
+;csharpsquid:S125"Remove this commented out code.(‰Ý¾è
+;csharpsquid:S125@"Remove this commented out code.(Ú°à¬
+@csharpsquid:S125c"Remove this commented out code.(¸îã†þÿÿÿÿ
