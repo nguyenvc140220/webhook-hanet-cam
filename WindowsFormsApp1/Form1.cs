@@ -57,14 +57,14 @@ namespace WindowsFormsApp1
                 "<button style=\"padding: 10px;font-size: 15px;background-color: #34b5b8;border-radius: 10px;border: none;color: white;text-align: center;cursor: pointer\">Truy cập hệ thống</button> </a>" +
                 " <br /><br /> <b>Trân trọng,</b><br /><br /><b>Công ty CP Dịch vụ công nghệ</b>" +
                 "<br /> Website: <a target=\"_blank\" style=\"color: #34b5b8; text-decoration: none;\">https://test.com</a></td></tr>\r\n</table>\r\n</body>\r\n</html>";
-            if (this.comboBox2.SelectedValue != null) {                
+          /*  if (this.comboBox2.SelectedValue != null) {                
                 DataTable table = databaseConnection.QueryData("Select E.BusinessEmail, E.FullName From dbo.Employees E Where E.UserId = " + this.comboBox2.SelectedValue);
                 DataTable tableDetail = databaseConnection.QueryData("Select E.Luong From dbo.H1_IncomeEmployees E Where E.UserId = " + this.comboBox2.SelectedValue);
                 contentStr.Replace("{Employees}", table.Rows[0][1].ToString());
                 contentStr.Replace("{Salary}", tableDetail.Rows[0][0].ToString());
                 this.SendEmail(table.Rows[0][0].ToString(), contentStr);
-            }
-            else
+            }*/
+/*            else
             {
                 if (this.comboBox1.SelectedValue != null)
                 {
@@ -82,7 +82,7 @@ namespace WindowsFormsApp1
                         this.SendEmail(table.Rows[0][0].ToString(), contentStr);
                     }
                 }
-            }
+            }*/
             databaseConnection.Close();
 
         }
@@ -119,7 +119,6 @@ namespace WindowsFormsApp1
                     "From dbo.H0_DepartmentEmployee DE " +
                     "INNER JOIN dbo.Employees E ON DE.UserId = E.UserId And DE.DepartmentId = " + this.comboBox1.SelectedValue);
                 // Bind the data to the form's controls
-                this.comboBox2.DataSource = table;
                 databaseConnection.Close();
             }
         }
@@ -151,7 +150,26 @@ namespace WindowsFormsApp1
             client.Send(mail);
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
 
 
+
+        public void initForm()
+        {
+
+        }
     }
 }
